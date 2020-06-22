@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.LightText {
+    font-weight: 300;
+}
+
+.Uppercase {
+    text-transform: uppercase;
+}
+
+.LightPrimary {
+    color: #1c7c9c;
+}
+
+.Bold {
+    font-weight: 500;
+}
+
+.Link {
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

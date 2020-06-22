@@ -1,0 +1,15 @@
+.Nav {
+    width: 80%;
+    position: sticky;
+    height: 10vh;
+    top: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AppName {
+    color: #114b5f;
+}
+

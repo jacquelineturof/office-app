@@ -1,0 +1,90 @@
+.AuthFormContainer {
+    height: 80%;
+    width: 80%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    display: flex;
+}
+
+.Banner {
+    height: 100%;
+    width: 40%;
+    background-color: #114b5f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.Tag {
+    width: 80%;
+    text-align: center;
+    font-weight: 100;
+}
+
+.AppName {
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.AuthProvidersContainer {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AuthProviders {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.IconContainer {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    cursor: pointer;
+}
+
+.FacebookBlue {
+    background-color: #3b5998;
+}
+
+.GoogleRed {
+    background-color: #de5246;
+}
+
+.Icon {
+    font-size: 1.2rem;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+    position: relative;
+    background-color: white;
+}
+
+.FormControlContainer {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    width: 30%;
+    height: 5%;
+    display: flex;
+}
+
+.InputsContainer {
+    width: 90%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

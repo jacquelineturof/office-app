@@ -1,0 +1,59 @@
+.Grid {
+    height: 90%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.Tile {
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.Calendar {
+    background: linear-gradient(90deg, rgba(115,191,184,.8) 100%, rgba(221,221,221,.8) 100%), url('../Assets/calendar.jpg');
+}
+
+.Todo {
+    background: linear-gradient(90deg, rgba(234,115,23, .9) 100%, rgba(221,221,221, .9) 100%), url('../Assets/todo.jpg');
+}
+
+.Analytics {
+    background: linear-gradient(90deg, rgba(61,165,217,.9) 100%, rgba(221,221,221,.9) 100%), url('../Assets/analytics.jpg');
+}
+
+.Countdown {
+    background: linear-gradient(90deg, rgba(254,198,1,.9) 100%, rgba(221,221,221,.9) 100%), url('../Assets/countdown.jpg');
+}
+
+.Notes {
+    background: linear-gradient(90deg, rgba(61,165,217,.9) 100%, rgba(221,221,221,.9) 100%), url('../Assets/notes.jpg');
+}
+
+.Groups {
+    background: linear-gradient(90deg, rgba(115,191,184,.8) 100%, rgba(221,221,221,.8) 100%), url('../Assets/groups.jpg');
+}
+
+.Messaging {
+    background: linear-gradient(90deg, rgba(115,191,184,.8) 100%, rgba(221,221,221,.8) 100%), url('../Assets/messaging.jpg');
+}
+
+.Settings {
+    background: linear-gradient(90deg, rgba(234,115,23, .9) 100%, rgba(221,221,221, .9) 100%), url('../Assets/settings.jpg');
+}
+
+.Weather {
+    background: linear-gradient(90deg, rgba(61,165,217,.9) 100%, rgba(221,221,221,.9) 100%), url('../Assets/weather.jpg');
+}
+
+.Background {
+    background-size: cover;
+    background-position: center;
+}

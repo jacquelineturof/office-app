@@ -1,0 +1,29 @@
+.Btn {
+    height: 30px;
+    outline: none;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.Primary {
+    background-color: #114b5f;
+    width: 150px;
+}
+
+.Simple {
+    flex: 1;
+    color: black;
+}
+
+.Active {
+    background-color: #114b5f;
+    flex: 1;
+}
+
+.Forgot {
+    position: absolute;
+    bottom: 10%;
+    color: black;
+}
